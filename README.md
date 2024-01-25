@@ -16,15 +16,15 @@ I won't release the project's code as open-source until a stable model has been 
 
 - n_steps = 49152
 - Iterations = 30
-- loss = 
-- value_loss = 
-- policy_gradient_loss = 
-- entropy_loss = 
+- loss = 7.63e-06  
+- value_loss = 5.81
+- policy_gradient_loss = 0.0466
+- entropy_loss = -2.68
 
 </td>
 </tr>
 </table>
-**Note:** It was discovered that during the training phase of vezir.ai, it played both its own side and the opposing side. It will only play its own color, while the opponent was updated to make random moves. Initially, I want it to be able to find at least the legal moves. Moreover, it was determined that the n_steps parameter, set at 2048, was insufficient for finding the legal moves. The value of the n_steps parameter was updated to 49152, giving vezir.ai more time to learn.
+**Note:** It was discovered that during the training phase of vezir.ai, it played both its own side and the opposing side. It will only play its own color, while the opponent was updated to make random moves. Initially, I want it to be able to find at least the legal moves. Moreover, it was determined that the n_steps parameter, set at 2048, was insufficient for finding the legal moves. The value of the n_steps parameter was updated to 49152, giving vezir.ai more time to learn. We observe improvements at the beginning of the chess game, but it still takes too long to find legal moves. It appears that it's not learning the legal moves well. Additionally, it seems that having the opponent make random moves during training is causing it to make random moves as well.
 
 ### Day One:
 <table>
