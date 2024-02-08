@@ -5,6 +5,9 @@ Vezir.ai employs the method of reinforcement learning to develop a model capable
 
 I won't release the project's code as open-source until a stable model has been developed, as I am endeavoring to create a core model on my own and do not wish to receive assistance during this process. However, I will share the games played by Vezir.ai here with every update. :)
 
+Edit:
+
+
 ### Third Day:
 <table>
 <tr>
